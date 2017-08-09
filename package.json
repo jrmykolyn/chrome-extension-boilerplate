@@ -1,6 +1,6 @@
 {
   "name": "chrome-extension-boilerplate",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "The Chrome Extension Boilerplate provides a starting point for Chrome extension development.",
   "main": "index.js",
   "scripts": {
