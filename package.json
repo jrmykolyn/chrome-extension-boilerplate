@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/jrmykolyn/chrome-extension-boilerplate#readme",
   "devDependencies": {
+    "colors": "^1.1.2",
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0",
     "sfco-path-map": "^0.4.1"
