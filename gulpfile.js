@@ -41,9 +41,16 @@ function migrate( from, to ) {
 /**
  * Wrapper around any/all tasks to be executed when `gulp` is run.
  */
-gulp.task( 'default', [ 'styles', 'scripts', 'views', 'assets', 'manifest' ], function() {
-	console.log( 'INSIDE TASK: `default`' );
+gulp.task( 'default', function() {
+	console.log( '\n\n' );
+	console.log( 'Whoops! This project does not support the "defualt" Gulp task. Execute the "build" task by running `npm run build`.' );
+	console.log( '\n\n' );
 } );
+
+/**
+ * Wrapper around any/all tasks to be executed as part of build process.
+ */
+gulp.task( 'build', [ 'styles', 'scripts', 'views', 'assets', 'manifest' ] );
 
 /**
  * Wrapper around any/all style-related tasks.
