@@ -1,0 +1,3 @@
+( function() {
+    /* BACKGROUND LOGIC HERE */
+} )();
