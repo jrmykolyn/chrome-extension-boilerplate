@@ -1,0 +1,19 @@
+{
+  "name": "chrome-extension-boilerplate",
+  "version": "0.0.0",
+  "description": "The Chrome Extension Boilerplate provides a starting point for Chrome extension development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrmykolyn/chrome-extension-boilerplate.git"
+  },
+  "author": "Jesse R Mykolyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrmykolyn/chrome-extension-boilerplate/issues"
+  },
+  "homepage": "https://github.com/jrmykolyn/chrome-extension-boilerplate#readme"
+}
