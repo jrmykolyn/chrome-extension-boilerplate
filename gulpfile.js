@@ -7,6 +7,7 @@
 var gulp = require( 'gulp' );
 var sass = require( 'gulp-sass' );
 var PathMap = require( 'sfco-path-map' );
+var colors = require( 'colors/safe' );
 
 // --------------------------------------------------
 // DECLARE VARS
@@ -43,7 +44,9 @@ function migrate( from, to ) {
  */
 gulp.task( 'default', function() {
 	console.log( '\n\n' );
-	console.log( 'Whoops! This project does not support the "defualt" Gulp task. Execute the "build" task by running `npm run build`.' );
+	console.log( colors.white.bgRed( 'Whoops! This project does not support the "defualt" Gulp task.' ) );
+	console.log( '\r' );
+	console.log( colors.white.bgRed( 'Execute the "build" task by running `npm run build`.' ) );
 	console.log( '\n\n' );
 } );
 
